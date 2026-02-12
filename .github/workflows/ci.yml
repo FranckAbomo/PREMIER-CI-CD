@@ -12,9 +12,9 @@ jobs:
 
   steps:
    - name: recuperation du code
-     uses: actions/checkout@v3
+     uses: actions/checkout@v4
 
    - name: verification syntaxe html
-     uses: cyber3r-jak3/html5validator-action@v7.2.0
+     uses: anishathalye/proof-html@v2
      with:
       root:
