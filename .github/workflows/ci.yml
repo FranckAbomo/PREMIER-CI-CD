@@ -18,3 +18,4 @@ jobs:
      uses: anishathalye/proof-html@v2
      with:
       directory: index.html
+      ignore_favicon: true
