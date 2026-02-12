@@ -17,4 +17,4 @@ jobs:
    - name: verification syntaxe html
      uses: anishathalye/proof-html@v2
      with:
-      directory:
+      directory: index.html
